@@ -1,0 +1,28 @@
+name: search
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  bloc: ^8.1.2
+  flutter_bloc: any
+  flutter:
+    sdk: flutter
+  persistent_bottom_nav_bar: ^5.0.2
+  timeago: ^3.5.0
+  font_awesome_flutter: ^10.5.0
+  shared_preferences: ^2.2.0
+  page_transition: ^2.0.9
+  dio: ^5.4.0
+  meta: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
